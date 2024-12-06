@@ -17,4 +17,11 @@ bcrypt and bcryptjs:
 jsonwebtoken
 -> this is used for access and refresh token functionality
 -> Access Token:
+
+cookies:
+-> cookie-parser paxkage is used
     
+file handling:
+-> There is no feature in express for file handling
+-> So, we will use trusted third party package - multer to manage files 
+-> Multer - handles multi-part form data
